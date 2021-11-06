@@ -39,3 +39,6 @@ GetPowerOf()  1.18217701
 }
 
 ```
+
+### Download
+[Math.Basic.dll](https://github.com/Lexz-08/Math.Basic/releases/download/math-basic/Math.Basic.dll)
