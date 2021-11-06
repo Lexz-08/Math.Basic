@@ -317,67 +317,67 @@ namespace Math.Basic
 		/// <returns><inheritdoc cref="GetPowerOf(byte, byte)"/></returns>
 		public static IntPtr GetPowerOf(IntPtr BaseNumber, IntPtr ExponentialNumber) => (IntPtr)System.Math.Pow((double)BaseNumber, (double)ExponentialNumber);
 		#endregion
-		#region Modulus Operations
+		#region Modulo Operations
 		/// <summary>
 		/// Gets the remainder of the division operation of 2 numbers.
 		/// </summary>
 		/// <returns>The remainder of the division of 2 numbers.</returns>
-		public static byte Modulus(byte Number1, byte Number2) => (byte)(Number1 % Number2);
+		public static byte Modulo(byte Number1, byte Number2) => (byte)(Number1 % Number2);
 		/// <summary>
-		/// <inheritdoc cref="Modulus(byte, byte)"/>
+		/// <inheritdoc cref="Modulo(byte, byte)"/>
 		/// </summary>
-		/// <returns><inheritdoc cref="Modulus(byte, byte)"/></returns>
-		public static decimal Modulus(decimal Number1, decimal Number2) => Number1 % Number2;
+		/// <returns><inheritdoc cref="Modulo(byte, byte)"/></returns>
+		public static decimal Modulo(decimal Number1, decimal Number2) => Number1 % Number2;
 		/// <summary>
-		/// <inheritdoc cref="Modulus(byte, byte)"/>
+		/// <inheritdoc cref="Modulo(byte, byte)"/>
 		/// </summary>
-		/// <returns><inheritdoc cref="Modulus(byte, byte)"/></returns>
-		public static double Modulus(double Number1, double Number2) => Number1 % Number2;
+		/// <returns><inheritdoc cref="Modulo(byte, byte)"/></returns>
+		public static double Modulo(double Number1, double Number2) => Number1 % Number2;
 		/// <summary>
-		/// <inheritdoc cref="Modulus(byte, byte)"/>
+		/// <inheritdoc cref="Modulo(byte, byte)"/>
 		/// </summary>
-		/// <returns><inheritdoc cref="Modulus(byte, byte)"/></returns>
-		public static float Modulus(float Number1, float Number2) => Number1 % Number2;
+		/// <returns><inheritdoc cref="Modulo(byte, byte)"/></returns>
+		public static float Modulo(float Number1, float Number2) => Number1 % Number2;
 		/// <summary>
-		/// <inheritdoc cref="Modulus(byte, byte)"/>
+		/// <inheritdoc cref="Modulo(byte, byte)"/>
 		/// </summary>
-		/// <returns><inheritdoc cref="Modulus(byte, byte)"/></returns>
-		public static int Modulus(int Number1, int Number2) => Number1 % Number2;
+		/// <returns><inheritdoc cref="Modulo(byte, byte)"/></returns>
+		public static int Modulo(int Number1, int Number2) => Number1 % Number2;
 		/// <summary>
-		/// <inheritdoc cref="Modulus(byte, byte)"/>
+		/// <inheritdoc cref="Modulo(byte, byte)"/>
 		/// </summary>
-		/// <returns><inheritdoc cref="Modulus(byte, byte)"/></returns>
-		public static long Modulus(long Number1, long Number2) => Number1 % Number2;
+		/// <returns><inheritdoc cref="Modulo(byte, byte)"/></returns>
+		public static long Modulo(long Number1, long Number2) => Number1 % Number2;
 		/// <summary>
-		/// <inheritdoc cref="Modulus(byte, byte)"/>
+		/// <inheritdoc cref="Modulo(byte, byte)"/>
 		/// </summary>
-		/// <returns><inheritdoc cref="Modulus(byte, byte)"/></returns>
-		public static sbyte Modulus(sbyte Number1, sbyte Number2) => (sbyte)(Number1 % Number2);
+		/// <returns><inheritdoc cref="Modulo(byte, byte)"/></returns>
+		public static sbyte Modulo(sbyte Number1, sbyte Number2) => (sbyte)(Number1 % Number2);
 		/// <summary>
-		/// <inheritdoc cref="Modulus(byte, byte)"/>
+		/// <inheritdoc cref="Modulo(byte, byte)"/>
 		/// </summary>
-		/// <returns><inheritdoc cref="Modulus(byte, byte)"/></returns>
-		public static short Modulus(short Number1, short Number2) => (short)(Number1 % Number2);
+		/// <returns><inheritdoc cref="Modulo(byte, byte)"/></returns>
+		public static short Modulo(short Number1, short Number2) => (short)(Number1 % Number2);
 		/// <summary>
-		/// <inheritdoc cref="Modulus(byte, byte)"/>
+		/// <inheritdoc cref="Modulo(byte, byte)"/>
 		/// </summary>
-		/// <returns><inheritdoc cref="Modulus(byte, byte)"/></returns>
-		public static uint Modulus(uint Number1, uint Number2) => Number1 % Number2;
+		/// <returns><inheritdoc cref="Modulo(byte, byte)"/></returns>
+		public static uint Modulo(uint Number1, uint Number2) => Number1 % Number2;
 		/// <summary>
-		/// <inheritdoc cref="Modulus(byte, byte)"/>
+		/// <inheritdoc cref="Modulo(byte, byte)"/>
 		/// </summary>
-		/// <returns><inheritdoc cref="Modulus(byte, byte)"/></returns>
-		public static ulong Modulus(ulong Number1, ulong Number2) => Number1 % Number2;
+		/// <returns><inheritdoc cref="Modulo(byte, byte)"/></returns>
+		public static ulong Modulo(ulong Number1, ulong Number2) => Number1 % Number2;
 		/// <summary>
-		/// <inheritdoc cref="Modulus(byte, byte)"/>
+		/// <inheritdoc cref="Modulo(byte, byte)"/>
 		/// </summary>
-		/// <returns><inheritdoc cref="Modulus(byte, byte)"/></returns>
-		public static ushort Modulus(ushort Number1, ushort Number2) => (ushort)(Number1 % Number2);
+		/// <returns><inheritdoc cref="Modulo(byte, byte)"/></returns>
+		public static ushort Modulo(ushort Number1, ushort Number2) => (ushort)(Number1 % Number2);
 		/// <summary>
-		/// <inheritdoc cref="Modulus(byte, byte)"/>
+		/// <inheritdoc cref="Modulo(byte, byte)"/>
 		/// </summary>
-		/// <returns><inheritdoc cref="Modulus(byte, byte)"/></returns>
-		public static IntPtr Modulus(IntPtr Number1, IntPtr Number2) => (IntPtr)((int)Number1 % (int)Number2);
+		/// <returns><inheritdoc cref="Modulo(byte, byte)"/></returns>
+		public static IntPtr Modulo(IntPtr Number1, IntPtr Number2) => (IntPtr)((int)Number1 % (int)Number2);
 		#endregion
 	}
 }
