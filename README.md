@@ -12,12 +12,12 @@ public class Program
 {
     public static void Main(string[] args)
     {
-        Console.WriteLine("\n{0}", MathOperations.Add(1.25f, 0.75f));
-        Console.WriteLine("\n{0}", MathOperations.Subtract(1.25f, 0.75f));
-        Console.WriteLine("\n{0}", MathOperations.Multiply(1.25f, 0.75f));
-        Console.WriteLine("\n{0}", MathOperations.Divide(1.25f, 0.75f));
+        Console.WriteLine("\n{0}", MathOperations.Add(       1.25f, 0.75f));
+        Console.WriteLine("\n{0}", MathOperations.Subtract(  1.25f, 0.75f));
+        Console.WriteLine("\n{0}", MathOperations.Multiply(  1.25f, 0.75f));
+        Console.WriteLine("\n{0}", MathOperations.Divide(    1.25f, 0.75f));
         Console.WriteLine("\n{0}", MathOperations.GetPowerOf(1.25f, 0.75f));
-        Console.WriteLine("\n{0}", MathOperations.Modulo(1.25f, 0.75f));
+        Console.WriteLine("\n{0}", MathOperations.Modulo(    1.25f, 0.75f));
         
         // total output
         /*
