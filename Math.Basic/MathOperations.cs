@@ -379,5 +379,211 @@ namespace Math.Basic
 		/// <returns><inheritdoc cref="Modulo(byte, byte)"/></returns>
 		public static IntPtr Modulo(IntPtr Number1, IntPtr Number2) => (IntPtr)((int)Number1 % (int)Number2);
 		#endregion
+		#region Average Operations
+		/// <summary>
+		/// Gets the average of a bunch of numbers.
+		/// </summary>
+		/// <returns>The average of the parameter <paramref name="Numbers"/>.</returns>
+		public static byte Average(params byte[] Numbers)
+		{
+			byte result = 0;
+
+			for (int i = 0; i < Numbers.Length; i++)
+			{
+				result += Numbers[i];
+			}
+
+			result = (byte)(result / Numbers.Length);
+
+			return result;
+		}
+		/// <summary>
+		/// <inheritdoc cref="Average(byte[])"/>
+		/// </summary>
+		/// <returns><inheritdoc cref="Average(byte[])"/></returns>
+		public static decimal Average(params decimal[] Numbers)
+		{
+			decimal result = 0;
+
+			for (int i = 0; i < Numbers.Length; i++)
+			{
+				result += Numbers[i];
+			}
+
+			result /= Numbers.Length;
+
+			return result;
+		}
+		/// <summary>
+		/// <inheritdoc cref="Average(byte[])"/>
+		/// </summary>
+		/// <returns><inheritdoc cref="Average(byte[])"/></returns>
+		public static double Average(params double[] Numbers)
+		{
+			double result = 0;
+
+			for (int i = 0; i < Numbers.Length; i++)
+			{
+				result += Numbers[i];
+			}
+
+			result /= Numbers.Length;
+
+			return result;
+		}
+		/// <summary>
+		/// <inheritdoc cref="Average(byte[])"/>
+		/// </summary>
+		/// <returns><inheritdoc cref="Average(byte[])"/></returns>
+		public static float Average(params float[] Numbers)
+		{
+			float result = 0;
+
+			for (int i = 0; i < Numbers.Length; i++)
+			{
+				result += Numbers[i];
+			}
+
+			result /= Numbers.Length;
+
+			return result;
+		}
+		/// <summary>
+		/// <inheritdoc cref="Average(byte[])"/>
+		/// </summary>
+		/// <returns><inheritdoc cref="Average(byte[])"/></returns>
+		public static int Average(params int[] Numbers)
+		{
+			int result = 0;
+
+			for (int i = 0; i < Numbers.Length; i++)
+			{
+				result += Numbers[i];
+			}
+
+			result /= Numbers.Length;
+
+			return result;
+		}
+		/// <summary>
+		/// <inheritdoc cref="Average(byte[])"/>
+		/// </summary>
+		/// <returns><inheritdoc cref="Average(byte[])"/></returns>
+		public static long Average(params long[] Numbers)
+		{
+			long result = 0;
+
+			for (int i = 0; i < Numbers.Length; i++)
+			{
+				result += Numbers[i];
+			}
+
+			result /= Numbers.Length;
+
+			return result;
+		}
+		/// <summary>
+		/// <inheritdoc cref="Average(byte[])"/>
+		/// </summary>
+		/// <returns><inheritdoc cref="Average(byte[])"/></returns>
+		public static sbyte Average(params sbyte[] Numbers)
+		{
+			sbyte result = 0;
+
+			for (int i = 0; i < Numbers.Length; i++)
+			{
+				result += Numbers[i];
+			}
+
+			result = (sbyte)(result / Numbers.Length);
+
+			return result;
+		}
+		/// <summary>
+		/// <inheritdoc cref="Average(byte[])"/>
+		/// </summary>
+		/// <returns><inheritdoc cref="Average(byte[])"/></returns>
+		public static short Average(params short[] Numbers)
+		{
+			short result = 0;
+
+			for (int i = 0; i < Numbers.Length; i++)
+			{
+				result += Numbers[i];
+			}
+
+			result = (short)(result / Numbers.Length);
+
+			return result;
+		}
+		/// <summary>
+		/// <inheritdoc cref="Average(byte[])"/>
+		/// </summary>
+		/// <returns><inheritdoc cref="Average(byte[])"/></returns>
+		public static uint Average(params uint[] Numbers)
+		{
+			uint result = 0;
+
+			for (int i = 0; i < Numbers.Length; i++)
+			{
+				result += Numbers[i];
+			}
+
+			result = (uint)(result / Numbers.Length);
+
+			return result;
+		}
+		/// <summary>
+		/// <inheritdoc cref="Average(byte[])"/>
+		/// </summary>
+		/// <returns><inheritdoc cref="Average(byte[])"/></returns>
+		public static ulong Average(params ulong[] Numbers)
+		{
+			ulong result = 0;
+
+			for (int i = 0; i < Numbers.Length; i++)
+			{
+				result += Numbers[i];
+			}
+
+			result = result / (ulong)Numbers.Length;
+
+			return result;
+		}
+		/// <summary>
+		/// <inheritdoc cref="Average(byte[])"/>
+		/// </summary>
+		/// <returns><inheritdoc cref="Average(byte[])"/></returns>
+		public static ushort Average(params ushort[] Numbers)
+		{
+			ushort result = 0;
+
+			for (int i = 0; i < Numbers.Length; i++)
+			{
+				result += Numbers[i];
+			}
+
+			result = (ushort)(result / Numbers.Length);
+
+			return result;
+		}
+		/// <summary>
+		/// <inheritdoc cref="Average(byte[])"/>
+		/// </summary>
+		/// <returns><inheritdoc cref="Average(byte[])"/></returns>
+		public static IntPtr Average(params IntPtr[] Numbers)
+		{
+			int result = 0;
+
+			for (int i = 0; i < Numbers.Length; i++)
+			{
+				result += (int)Numbers[i];
+			}
+
+			result = result / Numbers.Length;
+
+			return (IntPtr)result;
+		}
+		#endregion
 	}
 }
